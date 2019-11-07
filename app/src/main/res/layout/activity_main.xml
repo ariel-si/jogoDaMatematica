@@ -10,11 +10,13 @@
         android:gravity="center"
         android:layout_marginTop="30dp">
         <TextView
+            android:id="@+id/txtQuestao"
             android:text="25 + 30 ="
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_margin="8dp"/>
         <EditText
+            android:id="@+id/edtResposta"
             android:layout_height="wrap_content"
             android:layout_width="60dp"
             android:layout_margin="8dp"
@@ -25,10 +27,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_marginTop="60dp">
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
         <Button
+            android:id="@+id/btnVerifica"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="Verificar"/>
+        <TextView
+            android:id="@+id/txtResultadoCorreto"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="25 + 30 = 55"/>
      </LinearLayout>
 </LinearLayout>
