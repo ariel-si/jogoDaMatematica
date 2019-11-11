@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/ariel/Documentos/androidProjects/jogoDaMatematica/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/ariel/Documentos/androidProjects/jogoDaMatematica/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "16,69",
+                        "endColumns": "52,61",
+                        "endOffsets": "64,126"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,108",
+                        "endColumns": "52,61",
+                        "endOffsets": "103,165"
+                    }
+                },
+                {
+                    "source": "/home/ariel/Documentos/androidProjects/jogoDaMatematica/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endColumns": "65",
+                        "endOffsets": "115"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "170",
+                        "endColumns": "64",
+                        "endOffsets": "230"
+                    }
+                }
+            ]
+        }
+    ]
+}
